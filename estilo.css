@@ -16,12 +16,15 @@ body {
     align-items: center; /* Centraliza horizontalmente */
 }
 
-/* Estilo para o objeto (bola) */
+/* Estilo para o objeto (triângulo) */
 #objeto {
-    width: 50px; 
-    height: 50px; 
-    background-color: rgb(255, 0, 0); /* Altera para vermelho */
-    border-radius: 50%; 
+    width: 0; 
+    height: 0; 
+    border-left: 25px solid transparent; /* Lado esquerdo do triângulo */
+    border-right: 25px solid transparent; /* Lado direito do triângulo */
+    border-bottom: 50px solid rgb(255, 0, 0); /* Base do triângulo em vermelho */
     position: absolute; 
     top: 100px; 
+    left: 50%; /* Para centralizar o triângulo */
+    transform: translateX(-50%); /* Ajusta a posição para centralizar */
 }
