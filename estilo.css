@@ -1,7 +1,7 @@
 /* Estilo para o corpo da página */
 body {
     font-family: Arial, sans-serif; 
-    background-color: rgb(250, 6, 6); 
+    background-color: rgb(255, 255, 0); /* Altera para amarelo */
 }
 
 /* Estilo para o topo da página */
@@ -14,7 +14,6 @@ body {
     display: flex; 
     flex-direction: column; /* Empilha a informação e os botões */
     align-items: center; /* Centraliza horizontalmente */
-    
 }
 
 /* Estilo para o objeto (bola) */
@@ -26,4 +25,3 @@ body {
     position: absolute; 
     top: 100px; 
 }
-
